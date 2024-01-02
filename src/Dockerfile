@@ -1,5 +1,5 @@
 FROM python:3.12
 
-ADD randomFileGen.py .
+ADD main.py .
 
-CMD ["python", "./randomFileGen.py" ]
+CMD ["python", "./main.py" ]
